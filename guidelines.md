@@ -230,25 +230,24 @@ The name of the folder should match the Entity Type used in the JSON Schema
 folder should be used. The father folder can include common JSON schemas shared
 among the entities. e.g.:
 
-    -   `NewModel/`
+-   `NewModel/`
+    -   `doc/`
+        -   `spec.md`
+    -   `README.md`
+    -   `newmodel-schema.json`: the common schema for the different entities.
+    -   `NewModelEntityOne/`
         -   `doc/`
             -   `spec.md`
         -   `README.md`
-        -   `newmodel-schema.json`: the common schema for the different
-            entities.
-        -   `NewModelEntityOne/`
-            -   `doc/`
-                -   `spec.md`
-            -   `README.md`
-            -   `schema.json`
-            -   `example.json`
-            -   `example-normalized.json`
-            -   `example-normalized-ld.jsonld`
-        -   `NewModelEntityTwo/`
-            -   `doc/`
-                -   `spec.md`
-            -   `README.md`
-            -   `schema.json`
-            -   `example.json`
-            -   `example-normalized.json`
-            -   `example-normalized-ld.jsonld`
+        -   `schema.json`
+        -   `example.json`
+        -   `example-normalized.json`
+        -   `example-normalized-ld.jsonld`
+    -   `NewModelEntityTwo/`
+        -   `doc/`
+            -   `spec.md`
+        -   `README.md`
+        -   `schema.json`
+        -   `example.json`
+        -   `example-normalized.json`
+        -   `example-normalized-ld.jsonld`
