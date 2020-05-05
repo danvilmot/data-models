@@ -81,8 +81,8 @@ The way to handle new Data Models is administrated by the different subjects and
 
 - Management (currently FIWARE foundation and TMForum) will check for the consistency and updating of the different data models in this group of repositories
 
-- It is possible to request a [new data model](http://data-models.fiware.org/index.php/submit-an-issue-2/) 
-choose option **new data model** in the dropdown list. 
+- It is possible to request a [new data model](http://data-models.fiware.org/index.php/submit-an-issue-2/)
+choose option **new data model** in the dropdown list.
 
 ## How to contribute
 
@@ -92,8 +92,8 @@ A Data Model specification shall contain the following artefacts:
 
 -   `spec.md` Markdown specification in accordance with this
     [template](templates/spec.md-template.md).
-    
--   `README.md` Markdown examples and other related 
+
+-   `README.md` Markdown examples and other related
 information
     [template](templates/README.md-template.md).
 
@@ -110,12 +110,9 @@ information
 
 The artefacts referred below should be under a folder structured as follows:
 
--   `NewModel/`
-        -   `README.md`: A data model description based on the
-               Example: [spec.md of WeatherObserved](https://github.com/smart-data-models/dataModel.Weather/blob/master/WeatherObserved/README.md)
-        -   `spec.md`: Specification of the data model.
-               Example: 
-        -   `schema.json`: The JSON Schema definition, 
+  -   `NewModel/`
+        -   `README.md`: Specification of the data model and an example of use: [README.md of WeatherObserved](https://github.com/smart-data-models/dataModel.Weather/blob/master/WeatherObserved/README.md) 
+        -   `schema.json`: The JSON Schema definition,
                Example: [schema.json of WeatherObserved](https://github.com/smart-data-models/dataModel.Weather/blob/master/WeatherObserved/schema.json)
         -   `example.json`: One or more JSON example files
                Example: [example.json of WeatherObserved](https://github.com/smart-data-models/dataModel.Weather/blob/master/WeatherObserved/example.json)
@@ -128,13 +125,13 @@ To facilitate contributions and their validation, we developed a
 [tool](https://github.com/smart-data-models/tools/tree/master/validator) that is
 also used for the Continuous Integration.
 
-To achieve a better performance, we need to break down silo’s of data, 
-ensuring that artificial intelligence can be applied across aggregated datasets 
-and to ensure that individual citizen experience can be optimized across 
+To achieve a better performance, we need to break down silo’s of data,
+ensuring that artificial intelligence can be applied across aggregated datasets
+and to ensure that individual citizen experience can be optimized across
 different services.
 
-To achieve this, TM Forum and FIWARE launched this initiative, which seeks to 
-harmonize data models across Smart applications and with the Data Models of 
+To achieve this, TM Forum and FIWARE launched this initiative, which seeks to
+harmonize data models across Smart applications and with the Data Models of
 TM Forum which have been deployed globally.
 
 By agreeing across different communities, the common definition of smart
